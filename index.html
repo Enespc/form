@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>iletisim Formu</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body style="background-color: brown;">
+ <div class="container mt-5">
+ <div class="row justify-content-center">
+ <div class="col-md-6">
+ <div class="card">
+ <div class="card-header">
+ <h5 class="card-title text-center">Kodlama egitimlerinde sende yanimizda olmak ister misin?</h5>
+ </div>
+ <div class="card-body">
+ <form>
+ <div class="form-group">
+ <label for="ad">Ad</label>
+ <input type="text" class="form-control" id="ad" placeholder="Adiniz">
+ </div>
+ <div class="form-group">
+ <label for="kodlamaEgitimi">Kodlama Egitimi</label>
+ <input type="text" class="form-control" id="kodlamaEgitimi" placeholder="Kodlama egitiminizin adi">
+ </div>
+ <div class="form-group">
+ <label for="email">E-Mail</label>
+ <input type="email" class="form-control" id="email" placeholder="E-posta adresiniz">
+ </div>
+ <div class="form-group">
+ <label for="ozgecmis">ozgecmis</label>
+ <textarea class="form-control" id="ozgecmis" rows="3"></textarea>
+ </div>
+ <div class="form-group">
+ <label for="soyad">Soyad</label>
+ <input type="text" class="form-control" id="soyad" placeholder="Soyadiniz">
+ </div>
+ <div class="form-check form-check-inline">
+ <input class="form-check-input" type="radio" name="cinsiyet" id="erkek" value="option1">
+ <label class="form-check-label" for="erkek">Erkek</label>
+ </div>
+ <div class="form-check form-check-inline">
+ <input class="form-check-input" type="radio" name="cinsiyet" id="kadin" value="option2">
+ <label class="form-check-label" for="kadin">Kadin</label>
+ </div>
+ <button type="submit" class="btn btn-primary">Formu Gonder</button>
+ </form>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
